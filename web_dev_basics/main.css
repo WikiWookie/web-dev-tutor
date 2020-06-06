@@ -1,0 +1,34 @@
+/*
+  CSS is styling of a webpage: text color/text weight/div background colors
+  https://www.w3schools.com/
+*/
+
+/* Use classes (.) for elements that will have identical styling (but different content) */
+/* class selector */
+.testing {
+  color: yellow;
+}
+
+/* Use ids (#) for single specific elements. */
+/* id selector */
+#testing{
+  color: blue;
+  background-color: black;
+}
+
+/*
+  These two identical id selectors show how cascading works in CSS.
+  The second supercedes the first.  Any imported files with identical selectors
+  will be overwritten as well.
+*/
+#cool{
+  color: blue;
+}
+
+#cool{
+  color: lightblue;
+}
+
+#hot{
+  color: red;
+}

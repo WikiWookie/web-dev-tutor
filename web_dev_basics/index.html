@@ -1,0 +1,71 @@
+<!-- HTML is the structuring of a webpage -> Rendered by browsers -->
+
+<!--
+  html
+    header
+      <link rel="stylesheet" type="text/css" href="main.css">
+    body
+      h1 - h5
+      div
+      p
+
+      script
+      <script src="js/index.js"></script>
+
+-->
+
+<!--
+  NOTE: The <script> tag can be placed in the <head> section of your HTML,
+    in the <body> section, or after the </body> close tag,
+    depending on when you want the JavaScript to load.
+-->
+
+<!-- All html files start out with a beginning and closing html tag -->
+<html>
+
+  <!-- The header tag will contain styles and occasionally some configuration -->
+  <header>
+    <!--
+      You can have styles in the html file itself or a seperate file.
+      Usually you want to separate the html/css/js to keep things
+      readable and easier to mantain.
+    -->
+
+    <!-- <style>
+      #testing{
+        color: blue;
+      }
+    </style> -->
+
+    <link rel="stylesheet" type="text/css" href="main.css">
+  </header>
+
+  <!--
+    The body will contain the content of the html page.
+    IE: Navigation, content, footers, lists of information.
+        Whatever you want to show the user.
+  -->
+  <body>
+    <!-- Here is an example of using an inline style tag -->
+    <!-- <h1 style="color: red">Hello World!</h1> -->
+
+    <h1 id="testing">Hello World!</h1>
+
+    <div id="cool">
+      This is the coolest hello world page ever!
+    </div>
+
+    <div id="hot">
+      This is the hottest hello world page ever!
+    </div>
+
+    <div class="testing">
+      Test1
+    </div>
+
+    <div class="testing">
+      Test2
+    </div>
+
+  </body>
+</html>
