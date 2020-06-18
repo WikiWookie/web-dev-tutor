@@ -28,7 +28,7 @@
           </li>
 
           <li class="nav-item active">
-            <a class="nav-link text-white" href="./garden-item-list.html">Plant List</a>
+            <a class="nav-link text-white" href="./garden-item-list.html">Garden List</a>
           </li>
         </ul>
       </div>
@@ -36,28 +36,9 @@
     <!-- Navbar - End -->
 
     <div class="container">
-      <!-- Garden Form - Start -->
-      Garden Form!
-      <form id="gardenForm" name="gardenForm">
-        <div class="form-group">
-          <label for="plantName">Plant Name</label>
-          <input type="plantName" class="form-control" id="plantName" />
-        </div>
-
-        <div class="form-group">
-          <label for="plantedDate">Garden Date</label>
-          <input type="text" class="form-control" id="plantedDate" />
-        </div>
-
-        <button id="saveGardenItem" type="button" class="btn btn-primary">
-          Save
-        </button>
-
-        <a href="./index.html" type="button" class="btn btn-warning">
-          Cancel
-        </a>
-      </form>
-      <!-- Garden Form - End -->
+      <!-- Garden List - Start -->
+      <div class="row" id="garden-list"></div>
+      <!-- Garden List - End -->
     </div>
 
     <!-- Scripts must be in the order that they are used first -->
@@ -67,6 +48,6 @@
     <script src="./node_modules/dexie/dist/dexie.min.js"></script>
     <script src="./js/database.js"></script>
     <script src="./js/plant-table.database.js"></script>
-    <script src="./js/garden-form.js"></script>
+    <script src="./js/garden-item-list.js"></script>
   </body>
 </html>
