@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Garden App</title>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
+    />
+  </head>
+
+  <body>
+    <!-- Navbar - Start -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-success">
+        <a class="navbar-brand text-white" href="#">Garden App</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="./index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+  
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="./garden-form.html">Garden Form</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    <!-- Navbar - End -->
+
+    <div class="container">
+      <!-- Garden Form - Start -->
+      Garden Form!
+      <form id="gardenForm" name="gardenForm">
+        <div class="form-group">
+          <label for="plantName">Plant Name</label>
+          <input type="plantName" class="form-control" id="plantName" />
+        </div>
+
+        <div class="form-group">
+          <label for="plantedDate">Plant Date</label>
+          <input type="text" class="form-control" id="plantedDate" />
+        </div>
+
+        <button id="saveGardenItem" type="button" class="btn btn-primary">
+          Save
+        </button>
+
+        <a href="./index.html" type="button" class="btn btn-warning">
+          Cancel
+        </a>
+      </form>
+      <!-- Garden Form - End -->
+    </div>
+
+    <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="./node_modules/dexie/dist/dexie.min.js"></script>
+    <script src="database.js"></script>
+    <script src="index.js"></script>
+  </body>
+</html>

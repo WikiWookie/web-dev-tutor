@@ -6,6 +6,7 @@
 
 ### Lecture
 - Install Bootstrap
+- Install Jquery
 * Create 2 simple pages with links between them
     - Basic homepage
     - Basic page with form
@@ -13,4 +14,4 @@
 - Implement saving of form data
 
 ### Ending
-- Talk about Garden Space our team project
+- Talk about Garden Space our team project~
